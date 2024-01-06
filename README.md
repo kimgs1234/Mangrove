@@ -29,6 +29,7 @@ HTML, CSS , JavaScript 를 이용하여 맹그로브 사이트의 디자인과 �
 
 ## 각 담당 업무 , 페이지
 ### 레퍼런스 사이트
+Mangrove (맹그로브 mangrove – Live & Grow)
 
 ### 담당 업무
 * 김신영: 팀장, main/about us 페이지, 프로젝트 보고서 내용정리
