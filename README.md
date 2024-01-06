@@ -33,7 +33,7 @@ Mangrove (맹그로브 mangrove – Live & Grow)
 
 ### 담당 업무
 * 김신영: 팀장, main/about us 페이지, 프로젝트 보고서 내용정리
-* 김경석: journal, 발표
+* 김경석: journal 페이지 , 발표
 * 신지훈: community 페이지
 * 조유빈: git관리, location(고성, 신촌, 동대문, 신설, 숭인)페이지, ppt작성
 
