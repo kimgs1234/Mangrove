@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+/***** common *****/
+h3 {
+  font-size: var(--title-font-middle);
+}
+.title-wrapper {
+  width: 25%;
+  padding: 0 10px;
+}
+.content-wrapper {
+  padding: 0 10px;
+  width: 75%;
+}
+section {
+  display: flex;
+  padding: 40px 60px 20px;
+}
+
+header h1 {
+  width: 868px;
+}
+.swiper-gallery .swiper-button-next,
+.swiper-gallery .swiper-button-prev {
+  background-color: transparent;
+}
+.swiper-gallery .swiper-button-next:after,
+.swiper-gallery .swiper-button-prev:after {
+  display: none;
+}
+.swiper-pagination-bullet {
+  --swiper-pagination-bullet-width: 50px;
+  --swiper-pagination-bullet-height: 23px;
+}
+.big-btn:hover {
+  transform: scale(1.08);
+}
+.swiper-gallery .swiper-button-prev,
+.swiper-gallery .swiper-button-next {
+  width: 50%;
+  height: 85%;
+  position: absolute;
+  bottom: 0;
+}
+.swiper-gallery .swiper-button-prev {
+  left: 0;
+  cursor: url(../images/location/고성/slider-arrow-big-prev.svg) 20 40, auto;
+}
+.swiper-gallery .swiper-button-next {
+  right: 0;
+  cursor: url(../images/location/고성/slider-arrow-big-next.svg) 20 40, auto;
+}
+.swiper-pagination-bullet {
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+}
+.mini-gallery .swiper-slide img {
+  height: calc(25vw - 40px);
+}
+
+/***** intro *****/
+.intro {
+  padding: 380px 0 40px;
+  display: block;
+}
+.intro-slide {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.intro-slide img {
+  height: 80vh;
+  object-fit: cover;
+}
+.intro p {
+  padding: 0 16px;
+  font-size: 24px;
+  text-align: center;
+  width: 57.8%;
+  margin: 0 auto;
+}
+
+/***** overview *****/
+.overview {
+  display: flex;
+  justify-content: space-evenly;
+}
+.overview .content-wrapper {
+  display: flex;
+  padding-bottom: 40px;
+}
+.overview img {
+  max-height: 70vh;
+  width: 50%;
+  padding: 0 10px;
+}
+.overview p {
+  width: 80%;
+  font-size: var(--text-font);
+  padding: 0 10px;
+}
+.overview-txt-wrapper p {
+  width: 100%;
+}
+.overview-txt-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+/***** room *****/
+.room .content-wrapper {
+  padding: 0;
+}
+.room .space {
+  width: 50%;
+  padding: 0 10px;
+}
+.room .room-item-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.room .room-item {
+  width: 33.3333%;
+  padding: 0 10px 40px;
+  margin-bottom: 0;
+}
+
+/***** friends *****/
+.friends {
+  width: 75%;
+  position: relative;
+  left: 23%;
+}
+.friends h4 {
+  width: 33.3333%;
+  font-size: var(--main-font-18);
+}
+.friends-item-wrapper {
+  width: 66.6667%;
+  display: flex;
+}
+.friends .item {
+  border-top: none;
+  flex-direction: column;
+  padding-right: 20px;
+  margin-bottom: 50px;
+  width: 33.3333%;
+}
+.friends .item img {
+  width: 100%;
+  padding: 0;
+}
+.friends .item h5 {
+  margin-top: 20px;
+  padding: 10px 10px 0 0;
+  border-top: 1px solid black;
+  width: 100%;
+}
+
+/***** neighbor *****/
+.neighbor .content-wrapper p {
+  padding-bottom: 20px;
+}
+.neighbor .content-wrapper .neighbor-txt {
+  width: 100%;
+}
+.neighbor .content-wrapper .neighbor-txt p {
+  width: 33.3333%;
+  margin: 0;
+  padding: 0 10px;
+}
+
+/***** FAQ *****/
+.faq .content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.faq .content-wrapper .faq-wrapper {
+  width: 50%;
+  padding: 0 10px;
+}

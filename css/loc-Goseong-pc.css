@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/***** AnS *****/
+.amenity:nth-child(2) {
+  padding-bottom: 80px;
+}
+
+.friends-item-wrapper .item {
+  width: 200px;
+  padding-right: 0;
+}
+.friends-item-wrapper .item span {
+  width: 200px;
+}
+
+.furniture-wrapper .item span img {
+  width: 80%;
+}
+
+.other-wrapper {
+  display: flex;
+}
+
+/***** membership *****/
+.membership .membership-wrapper {
+  grid-template-rows: 1fr repeat(2, 3fr);
+  grid-template-columns: 1fr 1fr;
+}
+.membership .membership-logo {
+  grid-column: span 2;
+}
+.membership .book .book-btn:hover {
+  transform: scaleX(1.03);
+}
+
+/***** FAQ *****/
+.faq .content-wrapper .faq-wrapper {
+  width: 33.3333%;
+  padding: 0 10px;
+}

@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+  /*** about-title ***/
+  .about-title {
+    font-size: var(--title-font-lage);
+  }
+  /*** about-des ***/
+  .about-des {
+    font-size: var(--main-font-18);
+  }
+
+  /*** contents ***/
+  /* live & grow */
+  .grow {
+    padding: 258px 60px 30px;
+  }
+  .grow .grow-img {
+    width: 60%;
+    max-width: 980px;
+    padding: 30px 10px 20px;
+    margin: 0 auto;
+  }
+  .grow .grow-img img {
+    padding-bottom: 20px;
+  }
+  .grow .grow-txt {
+    width: 60%;
+    max-width: 980px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+  }
+  .grow .grow-txt .about-title {
+    font-size: var(--title-font-lage);
+    padding-bottom: 10px;
+  }
+  .grow .grow-txt p {
+    word-wrap: break-word;
+    font-size: var(--main-font-18);
+    font-weight: 900;
+    line-height: 1.8em;
+  }
+
+  /* live */
+  .live .live-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .live .live-wrapper .box:nth-child(even) {
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .live .live-wrapper .box:nth-child(even) .about-title,
+  .live .live-wrapper .box:nth-child(even) .about-des,
+  .live .live-wrapper .box:nth-child(even) strong {
+    max-width: 600px;
+  }
+  .live .live-wrapper .box:nth-child(even) .about-title {
+    margin-bottom: 5px;
+  }
+  .live .live-wrapper .box:nth-child(even) strong {
+    margin-bottom: 50px;
+  }
+  .live .live-wrapper .box1 {
+    order: 1;
+    border-right: 1px solid #000;
+  }
+  .live .live-wrapper .box2 {
+    order: 2;
+  }
+  .live .live-wrapper .box3 {
+    order: 4;
+  }
+  .live .live-wrapper .box4 {
+    order: 3;
+    border-right: 1px solid #000;
+  }
+  .live .live-wrapper .box5 {
+    order: 5;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+  }
+  .live .live-wrapper .box6 {
+    order: 6;
+  }
+
+  /* benefit */
+  .benefit {
+    padding: 40px 60px 20px;
+    display: grid;
+    grid-template-columns: 28% 72%;
+  }
+  .benefit::after {
+    width: 66.5%;
+    height: 0.5px;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+  }
+  .benefit .about-title {
+    font-size: var(--title-font);
+  }
+  .benefit .benefit-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .benefit .benefit-wrapper ul {
+    padding: 0 10px 40px;
+    margin-bottom: 0;
+    font-size: var(--main-font-16);
+  }
+  .benefit .benefit-wrapper ul > li:first-child {
+    width: 168.4px;
+    height: 168.4px;
+    border: 0.8px solid #000;
+  }
+  .benefit .benefit-wrapper ul > li:nth-child(2) {
+    width: calc(100% - 190px);
+  }
+  .benefit .benefit-wrapper ul h3 {
+    padding: 20px 0 7px;
+  }
+
+  /* locations */
+  .about-locations {
+    width: 69%;
+    margin: 0 0 30px 29%;
+    padding-bottom: 60px;
+  }
+  .about-locations h4 {
+    font-size: var(--main-font-16);
+    margin-bottom: 0;
+  }
+  .about-locations .about-slide {
+    width: 100%;
+    overflow: hidden;
+  }
+  .about-locations .about-slide .swiper-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    position: relative;
+  }
+  .about-locations .about-slide .swiper-wrapper .swiper-slide {
+    /* margin-right: 20px; */
+  }
+  .about-locations .about-slide .swiper-wrapper .swiper-slide a {
+    padding: 30px 20px 60px;
+    width: 100%;
+    cursor: url(../images/swipe-cursor.svg) 12 12, auto;
+  }
+  .about-locations .about-slide .swiper-wrapper .swiper-slide a:hover {
+    background-color: var(--bg-color-mint);
+  }
+  .about-locations .about-slide .swiper-wrapper .swiper-slide a img {
+    height: 60px;
+  }
+  .about-locations .about-slide .swiper-button-next::after {
+    content: "<";
+    color: inherit;
+    width: 30px;
+    height: 30px;
+    font-size: 56px;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+  .about-locations .about-slide .swiper-button-next::before {
+    content: ">";
+    color: inherit;
+    width: 30px;
+    height: 30px;
+    font-size: 56px;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
