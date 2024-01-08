@@ -43,7 +43,7 @@ Mangrove (맹그로브 mangrove – Live & Grow)
 ![image](https://github.com/kimgs1234/Mangrove/assets/142865411/4d9c2e70-85b3-4bc0-bc89-f9f94c2dc952) 
 
 ### 디렉토리 구조
-![image](https://github.com/kimgs1234/Mangrove/assets/142865411/f7e153a5-c1b2-4d9e-b813-c243a4dbfa2a
+![image](https://github.com/kimgs1234/Mangrove/assets/142865411/f7e153a5-c1b2-4d9e-b813-c243a4dbfa2a)
 
 ### 문제 및 해결
 #### 1. GitHub
