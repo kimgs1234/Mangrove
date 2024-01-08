@@ -43,6 +43,34 @@ Mangrove (맹그로브 mangrove – Live & Grow)
 ![image](https://github.com/kimgs1234/Mangrove/assets/142865411/4d9c2e70-85b3-4bc0-bc89-f9f94c2dc952) 
 
 ### 디렉토리 구조
-![image](https://github.com/kimgs1234/Mangrove/assets/142865411/f7e153a5-c1b2-4d9e-b813-c243a4dbfa2a)
+![image](https://github.com/kimgs1234/Mangrove/assets/142865411/f7e153a5-c1b2-4d9e-b813-c243a4dbfa2a
 
+### 문제 및 해결
+#### 1. GitHub
+* 상황 : git push를 했을 때 error:failed to push some refs to(충돌 발생) 
+* 문제 확인 : 팀원들 간의 pull과 push가 겹쳐 충돌 발생
+* 해결 : 먼저 pull 작업으로 팀원들의 업데이트 내용을 내 로컬로 가져온 다음 push를 실행하
+여 원격저장소에 업데이트
 
+* 상황 : merge Conflict
+* 문제 확인 : 한 파일을 중복으로 수정하여 수정부분에 충돌발생
+* 해결 : vscode의 source control에서 충돌 부분 병합 후 commit git pull origin main을 실
+행하여 원격 저장소 정보를 로컬로 가져온 후 push
+
+#### 2. 반응형 제작
+* 상황 : book 버튼 내부 메뉴 사이즈 변경 시 내부 컨텐츠가 넘침
+* 문제 확인 : 미디어 쿼리 적용 시 변화하는 사이즈 대응 문제
+* 해결 : 팀원들과 논의를 통해 부모요소에 padding값을 주고 자식요소의 width값에 Pluto를
+주 어 width값이 자동으로 조절되게 함
+
+#### 3. Java Script
+* 상황 : Plugin Location 섹션에서 Swiper와 Fancy box 플러그인이 결합된 이미지 박스 구
+현 실패
+* 해결 : 두가지가 결합된 플러그인을 찾아보려 했지만 찾지 못하였고 두가지 플러그인을 함께
+사용 하지 못함
+
+* 상황 : 제목을 눌렀을 때 부드럽게 텍스트 박스가 내려오는 효과를 구현하지 못함
+* 해결 : 각 FAQ의 목록을 클릭 하였을 때 height값이 변하는 상황에서, Transition을 적용하
+여 해결하려 하였으나 해결하지 못함 추후 Java Script를 더 숙지하여 보완 예정
+
+## 프로젝트 완료 리뷰
